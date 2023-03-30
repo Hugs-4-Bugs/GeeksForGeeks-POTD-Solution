@@ -5,9 +5,9 @@
 <p><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Example 1:</strong></span></span></span></p>
 
 <pre><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Input:</strong></span></span></span>
-<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">N=6</span></span></span>
-<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">K=2</span></span></span>
-<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">W=3</span></span></span>
+<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">n=6</span></span></span>
+<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">k=2</span></span></span>
+<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">w=3</span></span></span>
 <span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">a[]={2,2,2,2,1,1}</span></span></span>
 <span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Output:</strong></span></span></span>
 <span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">2</span></span></span>
@@ -19,9 +19,9 @@ new heights</span> <span style="font-size:13.5pt"><span style="font-family:Arial
 <p><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Example 2:</strong></span></span></span></p>
 
 <pre><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Input:</strong></span></span></span>
-<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">N=2</span></span></span>
-<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">K=5</span></span></span>
-<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">W=1</span></span></span>
+<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">n=2</span></span></span>
+<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">k=5</span></span></span>
+<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">w=1</span></span></span>
 <span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">a[]={5,8}</span></span></span>
 <span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Output:</strong></span></span></span>
 <span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">9</span></span></span>
@@ -33,12 +33,12 @@ new heights</span> <span style="font-size:13.5pt"><span style="font-family:Arial
 <span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">You don't need to read input or print anything. Your task is to complete the function </span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>maximizeMinHeight()</strong></span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"> which takes the array a[], its size N</span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>, </strong></span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">integer K, and an integer W</span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong> </strong></span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000">as input parameters and returns the maximum height possible for the smallest flower.</span></span></span></p>
 
 <p><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Expected Time Complexity:</strong></span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"> O(NLogN)</span></span></span><br>
-<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Expected Auxiliary Space:</strong></span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"> O(1)</span></span></span></p>
+<span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Expected Space Complexity:</strong></span></span></span><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"> O(N)</span></span></span></p>
 
 <p><span style="font-size:13.5pt"><span style="font-family:Arial"><span style="color:#000000"><strong>Constraints:</strong></span></span></span><br>
-<span style="font-size:18px"><span style="font-family:Arial"><span style="color:#000000">1 &lt;= N &lt;= 10<sup>5</sup></span></span></span><br>
-<span style="font-size:18px"><span style="font-family:Arial"><span style="color:#000000">1&lt;=w&lt;=N</span></span></span><br>
-<span style="font-size:18px"><span style="font-family:Arial"><span style="color:#000000">1&lt;=K&lt;=10<sup>5</sup></span></span></span><br>
+<span style="font-size:18px"><span style="font-family:Arial"><span style="color:#000000">1 &lt;= n&lt;= 10<sup>5</sup></span></span></span><br>
+<span style="font-size:18px"><span style="font-family:Arial"><span style="color:#000000">1&lt;=w&lt;=n</span></span></span><br>
+<span style="font-size:18px"><span style="font-family:Arial"><span style="color:#000000">1&lt;=k&lt;=10<sup>5</sup></span></span></span><br>
 <span style="font-size:18px"><span style="font-family:Arial"><span style="color:#000000">1 &lt;= a[i] &lt;= 10<sup>9</sup></span></span></span></p>
 
 <p>&nbsp;</p>
