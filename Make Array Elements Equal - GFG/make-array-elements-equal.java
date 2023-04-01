@@ -31,15 +31,10 @@ class GFG {
 class Solution {
     public long minOperations(int N) {
         // Code here
-        // long avg = (N - 1);
-        // long operations = 0;
-        // for (int i = 0; i < N; i++) {
-        //     operations += Math.abs(2*i + 1 - avg);
-            
-        // }
-        // return operations / 2;
+        // Solution 1
         
          long mid=N/2;
          return N%2==0?(long)mid*(long)mid:(long)mid*(long)(mid+1);
+        
     }
 }
