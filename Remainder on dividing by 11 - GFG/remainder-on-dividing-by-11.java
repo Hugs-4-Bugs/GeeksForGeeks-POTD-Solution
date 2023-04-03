@@ -37,6 +37,10 @@ class Solution
     static int xmod11(String x)
 	{    
 	    // code here
+	    
+	   // Approach 1
+	    
+	    
 	   // int cur=0; int rem=0;
 	   // for(int i=0 ;i<x.length(); i++)
 	   // {
@@ -45,6 +49,11 @@ class Solution
 	   // }
 	   // return rem;
 	   
+	   
+	   
+	   
+	   
+	   // Approach 2
 	   
 	   int n = x.length();
         int rem = 0;
