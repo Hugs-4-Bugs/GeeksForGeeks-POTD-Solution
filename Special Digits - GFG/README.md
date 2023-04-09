@@ -1,7 +1,7 @@
 # Special Digits
 ## Hard
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">You are given 5 integers -&nbsp;<strong>N,A,B,C,D</strong>.<br>
-Let us say all the integers of length&nbsp;<strong>N</strong>,&nbsp;having only <strong>A </strong>or <strong>B</strong> in their decimal representation are&nbsp;<strong>good </strong>integers. Also, among all the good integers, all those integers whose sum of digits contains only&nbsp;<strong>C</strong>&nbsp;and&nbsp;<strong>D</strong>&nbsp;are <strong>best </strong>integers.<br>
+Let us say all the integers of length&nbsp;<strong>N</strong>,&nbsp;having only <strong>A </strong>or <strong>B</strong> in their decimal representation are&nbsp;<strong>good </strong>integers. Also, among all the good integers, all those integers whose sum of digits contains either C or D or both are <strong>best </strong>integers.<br>
 Find the number of best integers of length <strong>N</strong>. Since the number of best integers can be huge, print it modulo <strong>10<sup>9</sup>+7</strong>.</span><br>
 &nbsp;</p>
 
