@@ -38,11 +38,9 @@ class GFG {
 }
 
 // } Driver Code Ends
-
-
 class Solution {
         // code here
-        static int N = (int)1e5+5;
+static int N = (int)1e5+5;
 	static int M = (int)1e9+7;
 	long binpow(long a,long b,long p){
 	    if(b == 0)
@@ -114,3 +112,5 @@ class Solution {
         }
     }
 }
+      
+  
