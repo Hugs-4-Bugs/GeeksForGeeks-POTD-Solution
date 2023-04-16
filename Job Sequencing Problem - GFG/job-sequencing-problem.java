@@ -42,11 +42,7 @@ class GfG {
 // } Driver Code Ends
 
 
-// class Solution
-// {
-//     //Function to find the maximum profit and the number of jobs done.
-//     int[] JobScheduling(Job arr[], int n)
-//     {
+// 
 //         // Your code here
 
 class JobComparator implements Comparator<Job> {
@@ -56,19 +52,20 @@ class JobComparator implements Comparator<Job> {
 }
 
 public class Solution {
-    int[] JobScheduling(Job[] jobs, int n) {
-        Arrays.sort(jobs, new JobComparator());
+    int[] JobScheduling(Job[] arr, int n) {
+        // Your code here
+        Arrays.sort(arr, new JobComparator());
         
         int[] slots = new int[n];
         Arrays.fill(slots, -1);
         
         int count = 0, profit = 0;
         for (int i = 0; i < n; i++) {
-            for (int j = Math.min(n, jobs[i].deadline) - 1; j >= 0; j--) {
+            for (int j = Math.min(n, arr[i].deadline) - 1; j >= 0; j--) {
                 if (slots[j] == -1) {
                     slots[j] = i;
                     count++;
-                    profit += jobs[i].profit;
+                    profit += arr[i].profit;
                     break;
                 }
             }
