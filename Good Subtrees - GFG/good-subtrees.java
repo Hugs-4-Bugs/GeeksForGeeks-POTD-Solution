@@ -111,7 +111,7 @@ class Solution
         return count[0];
     }
     
-    private static Set<Integer> helper(Node node, int k, int[] count) {
+    public static Set<Integer> helper(Node node, int k, int[] count) {
         if (node == null) {
             return new HashSet<>();
         }
