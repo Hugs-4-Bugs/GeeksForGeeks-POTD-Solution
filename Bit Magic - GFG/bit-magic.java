@@ -58,13 +58,13 @@ class GFG {
 class Solution {
     public static int bitMagic(int n, int[] arr) {
         // code here
-         int c=0;
+        int count=0;
         for(int i=0;i<n/2;i++){
             if(arr[i]!=arr[n-i-1]){
-                c++;
+                count++;
             }
         }
-        return (c+1)/2;
+        return (count+1)/2;
     }
 }
         
