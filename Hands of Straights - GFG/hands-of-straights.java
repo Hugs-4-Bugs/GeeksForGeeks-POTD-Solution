@@ -30,10 +30,10 @@ class GFG {
 // User function Template for Java
 
 class Solution {
-    static boolean isStraightHand(int N, int W, int hand[]) {
+    static boolean isStraightHand(int N, int groupSize, int hand[]) {
         // code here
         int len = hand.length;
-        if (len % W != 0) return false;
+        if (len % groupSize != 0) return false;
         TreeMap<Integer, Integer> treeMap = new TreeMap<>();
         for (int num : hand) {
             treeMap.put(num, treeMap.getOrDefault(num, 0) + 1);
@@ -41,7 +41,7 @@ class Solution {
 
         while (!treeMap.isEmpty()) {
             int first = treeMap.firstKey();
-            for (int j = 1; j < W; j++) {
+            for (int j = 1; j < groupSize; j++) {
                 int next = first + j;
                 if (treeMap.containsKey(next)) {
                     treeMap.put(next, treeMap.get(next) - 1);
