@@ -182,8 +182,21 @@ public class GfG
 // } Driver Code Ends
 
 
-// Back-end complete function Template for Java
+//User function Template for Java
 
+/*
+class Node
+{
+	int data, height;
+	Node left, right;
+	Node(int x)
+	{
+		data = x;
+		height = 1;
+		left = right = NULL;
+	}
+}
+*/
 class Sol {
    public static int height(Node N)
     {
