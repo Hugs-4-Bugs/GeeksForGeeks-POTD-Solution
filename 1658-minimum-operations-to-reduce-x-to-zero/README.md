@@ -10,6 +10,7 @@
 <strong>Explanation:</strong> The optimal solution is to remove the last two elements to reduce x to zero.
 </pre>
 
+
 <p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> nums = [5,6,7,8,9], x = 4
