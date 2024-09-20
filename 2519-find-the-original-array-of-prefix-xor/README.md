@@ -11,6 +11,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
+
 <pre>
 <strong>Input:</strong> pref = [5,2,0,3,1]
 <strong>Output:</strong> [5,7,2,3,2]
