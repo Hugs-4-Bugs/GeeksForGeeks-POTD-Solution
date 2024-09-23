@@ -15,6 +15,7 @@ A = "1101", B = "111"
 10100</span>
 </pre>
 
+
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
 <pre><span style="font-size:18px"><strong>Input</strong>: 
