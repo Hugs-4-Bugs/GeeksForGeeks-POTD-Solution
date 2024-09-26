@@ -10,6 +10,7 @@ Tree =
     / \   / \  
    1   3 5   7</span>
 
+
 <span style="font-size: 18px;">N = 4
 Values to be deleted = {4,1,3,6}</span>
 
