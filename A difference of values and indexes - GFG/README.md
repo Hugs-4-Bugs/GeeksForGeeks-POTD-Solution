@@ -4,6 +4,7 @@
 
 <p><strong>Example 1:</strong></p>
 
+
 <pre><strong>Input :</strong> 
 n = 3
 arr[ ] = {1, 3, -1}
