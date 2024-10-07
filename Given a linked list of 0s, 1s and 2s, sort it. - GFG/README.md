@@ -5,6 +5,7 @@
 <pre><span style="font-size: 18px;"><strong>Input:
 </strong>N = 8
 value[] = {1,2,2,1,2,0,2,2}
+  
 <strong>Output: </strong>0 1 1 2 2 2 2 2<strong>
 Explanation: </strong>All the 0s are segregated
 to the left end of the linked list,
