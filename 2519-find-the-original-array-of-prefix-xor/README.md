@@ -4,6 +4,7 @@
 	<li><code>pref[i] = arr[0] ^ arr[1] ^ ... ^ arr[i]</code>.</li>
 </ul>
 
+
 <p>Note that <code>^</code> denotes the <strong>bitwise-xor</strong> operation.</p>
 
 <p>It can be proven that the answer is <strong>unique</strong>.</p>
